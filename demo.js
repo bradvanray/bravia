@@ -1,7 +1,7 @@
 var bravia = require('./lib');
 // Accepts two parameters: IP and PSKKey
 
-bravia('10.163.1.151', '121784', function(client) {
+bravia('100.168.1.100', '0000', function(client) {
 
   // List available commands
   client.getCommandNames(function(list) {
